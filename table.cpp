@@ -1,6 +1,4 @@
-// Lab 3 table.cpp
-// This program reads data from a file and 
-// prints it in a nicely aligned table.
+// This program reads data from a file and prints it in a nicely aligned table.
 // Yasim Cruz
 
 #include <iostream>
@@ -18,7 +16,7 @@ int main()
    
    // WRITE A STATEMENT TO OPEN THE table.dat FILE THAT WILL BE 
    // ACCESSED THROUGH THE dataIn FILE STREAM OBJECT. 
-   dataIn.open("/Users/yasimcruzdiaz/Library/CloudStorage/OneDrive-Personal/Desktop/CIAT/C++/Lab3Files/table.dat");
+   dataIn.open("table.dat");
    // Print table heading
    cout << "     Warehouse Inventory      \n";
    cout << "==============================\n\n";
